@@ -15,6 +15,11 @@ const Header = () => {
         </nav>
         <button className='secondary-btn'>Login</button>
       </section>
+      <section className='header__texts'>
+        <h1>Work at the speed of thought</h1>
+        <h5>Most calendars are designed for teams. Slate is designed for 
+        freelancers who want a simple way to plan their schedule.</h5>
+      </section>
     </div>
   )
 }
