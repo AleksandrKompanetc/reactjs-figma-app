@@ -1,3 +1,30 @@
 .header {
-  background-color: #042143;
+  width: 100%;
+  background-color: #010911;
+  margin: 0 auto;
+}
+
+.header__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  max-width: 1400px;
+}
+
+.header__nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.secondary-btn {
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  font-weight: 600;
+  color: #ccc;
+  background-color: transparent;
+  cursor: pointer;
 }
