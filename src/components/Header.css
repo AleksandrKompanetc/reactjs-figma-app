@@ -55,3 +55,43 @@
   color: gray;
   border-color: gray;
 }
+
+.header__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 35px;
+  padding: 50px auto;
+}
+
+.header__texts-title {
+  margin: 0;
+  width: 40%;
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.header__texts-subtitle {
+  margin-top: 17px;
+  width: 40%;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.header__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  gap: 35px;
+}
+
+.header__image {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/site/images/siteImages/logo.png'
+import screens from '../assets/site/images/siteImages/screens.png'
 import './Header.css'
 
 const Header = () => {
@@ -16,9 +17,16 @@ const Header = () => {
         <button className='secondary-btn'>Login</button>
       </section>
       <section className='header__texts'>
-        <h1>Work at the speed of thought</h1>
-        <h5>Most calendars are designed for teams. Slate is designed for 
+        <h1 className='header__texts-title'>Work at the speed of thought</h1>
+        <h5 className='header__texts-subtitle'>Most calendars are designed for teams. Slate is designed for 
         freelancers who want a simple way to plan their schedule.</h5>
+      </section>
+      <section className='header__buttons'>
+        <button className='primary-btn'>Try For Free</button>
+        <button className='secondary-btn'>Learn More</button>
+      </section>
+      <section className='header__image'>
+        <img src={screens} alt="Screen" />
       </section>
     </div>
   )
