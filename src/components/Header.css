@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background-color: #010911;
+  background-color: #181818;
   margin: 0 auto;
 }
 
@@ -11,20 +11,47 @@
   align-items: center;
   margin: 0 auto;
   padding: 10px 20px;
-  max-width: 1400px;
+  max-width: 1097px;
+  height: 120px;
 }
 
 .header__nav a {
+  margin-right: 30px;
+  font-family: sans-serif;
   color: #fff;
   text-decoration: none;
-  margin-right: 30px;
+}
+
+.header__nav a:hover {
+  color: gray;
+}
+
+.primary-btn {
+  padding: 20px 40px;
+  border: none;
+  background: #4452FE;
+  color: #fff;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.primary-btn:hover {
+  background: #1722ad;
 }
 
 .secondary-btn {
-  padding: 10px 20px;
-  border: 2px solid #ccc;
+  padding: 19px 40px;
+  border: 2px solid #fff;
   font-weight: 600;
-  color: #ccc;
-  background-color: transparent;
+  color: #fff;
+  background: transparent;
   cursor: pointer;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.secondary-btn:hover {
+  color: gray;
+  border-color: gray;
 }
