@@ -4,6 +4,8 @@ import features from '../assets/site/images/siteImages/features.png'
 import feature1 from '../assets/site/images/logos/features/1.svg'
 import feature2 from '../assets/site/images/logos/features/2.svg'
 import feature3 from '../assets/site/images/logos/features/3.svg'
+import macbookpro from '../assets/site/images/siteImages/MacbookPro.png'
+import boards from '../assets/site/images/siteImages/BoardsNotifications.png'
 
 const Main = () => {
   return (
@@ -52,7 +54,35 @@ const Main = () => {
             </li>
           </ul>
         </div>
-
+      </section>
+      <section className='main__content'>
+        <h1 className='main__title'>Contents</h1>
+        <h5 className='main__subtitle'>
+          We focus on ergonomics and meeting you where you work.
+          It's only a keystroke away.
+        </h5>
+        <div className='main__cards'>
+          <div className='main__card'>
+            <h1>Work</h1>
+            <h5>
+              Ever wondered if you're too reliant
+              on a client for work? Slate helps
+              you identify.
+            </h5>
+            <button className='primary-btn'>Sign up</button>
+            <img src={macbookpro} alt="MacbookPro" />
+          </div>
+          <div className='main__card'>
+            <h1>Design with real data</h1>
+            <h5>
+              Ever wondered if you're too reliant
+              on a client for work? Slate helps
+              you identify.
+            </h5>
+            <button className='primary-btn'>Sign up</button>
+            <img src={boards} alt="BoardsNotification" />
+          </div>
+        </div>
       </section>
     </main>
   )
