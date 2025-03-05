@@ -18,31 +18,37 @@ const Main = () => {
           <img src={features} alt="Features" />
           <ul className=''>
             <li>
-              <img src={feature1} />
-              <span>A single source of truth</span>
-              <span>When you add work to your
+              <div className='main_li_header'>
+                <img src={feature1} />
+                <span>A single source of truth</span>
+              </div>
+              <div className='main_li_footer'>
+                When you add work to your
                 Slate calendar we automatically
                 calculate useful insights
-              </span>
+              </div>
             </li>
             <li>
-              <img src={feature2} />
-              <span>Intuitive
-                interface</span>
-              <span>When you add work to your
+              <div className='main_li_header'>
+                <img src={feature2} />
+                <span>Intuitive interface</span>
+              </div>
+              <div className='main_li_footer'>
+                When you add work to your
                 Slate calendar we automatically
                 calculate useful insights
-
-              </span>
+              </div>
             </li>
             <li>
-              <img src={feature3} />
-              <span>Or with rules</span>
-              <span>When you add work to your
+              <div className='main_li_header'>
+                <img src={feature3} />
+                <span>Or with rules</span>
+              </div>
+              <div className='main_li_footer'>
+                When you add work to your
                 Slate calendar we automatically
                 calculate useful insights
-
-              </span>
+              </div>
             </li>
           </ul>
         </div>
