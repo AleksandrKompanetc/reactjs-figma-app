@@ -1,0 +1,24 @@
+.main__features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.main__title {
+  margin-top: 162px;
+  margin-bottom: 0;
+  font-size: 62px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.main__subtitle {
+  width: 40%;
+  margin-top: 27px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
