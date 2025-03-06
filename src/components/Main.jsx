@@ -140,6 +140,9 @@ const Main = () => {
           </div>
         <button className='secondary-btn'>All Partners</button>
       </section>
+      <section className=''>
+        <h1 className='main__title'>Testimonials</h1>
+      </section>
     </main>
   )
 }
