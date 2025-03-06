@@ -10,6 +10,9 @@ import gallery1 from "../assets/site/images/gallery/1.png"
 import gallery2 from "../assets/site/images/gallery/2.png"
 import gallery3 from "../assets/site/images/gallery/3.png"
 import gallery4 from "../assets/site/images/gallery/4.png"
+import gallery5 from "../assets/site/images/gallery/5.png"
+import gallery6 from "../assets/site/images/gallery/6.png"
+import gallery7 from "../assets/site/images/gallery/7.png"
 
 const Main = () => {
   return (
@@ -100,12 +103,17 @@ const Main = () => {
           We focus on ergonomics and meeting you where you work.
           It's only a keystroke away.
         </h5>
-        <div>
-          <div>
+        <div className='gallery__section'>
+          <div className='gallery__first_row'>
             <img src={gallery1} alt="Gallery1" />
             <img src={gallery2} alt="Gallery2" />
             <img src={gallery3} alt="Gallery3" />
             <img src={gallery4} alt="Gallery4" />
+          </div>
+          <div className='gallery__second_row'>
+            <img src={gallery5} alt="Gallery5" />
+            <img src={gallery6} alt="Gallery6" />
+            <img src={gallery7} alt="Gallery7" />
           </div>
         </div>
         <button className='secondary-btn'>See more</button>
