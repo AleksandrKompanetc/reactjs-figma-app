@@ -90,6 +90,13 @@ const Main = () => {
           </div>
         </div>
       </section>
+      <section className='main__gallery'>
+        <h1 className='main__title'>Gallery</h1>
+        <h5 className='main__subtitle'>
+          We focus on ergonomics and meeting you where you work.
+          It's only a keystroke away.
+        </h5>
+      </section>
     </main>
   )
 }
