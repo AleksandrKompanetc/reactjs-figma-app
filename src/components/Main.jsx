@@ -63,22 +63,28 @@ const Main = () => {
         </h5>
         <div className='main__cards'>
           <div className='main__card first__card'>
-            <h1>Work</h1>
-            <h5>
-              Ever wondered if you're too reliant
-              on a client for work? Slate helps
-              you identify.
-            </h5>
-            <button className='primary-btn'>Sign up</button>
+            <div>
+              <h1>Work</h1>
+              <h5>
+                Ever wondered if you're too reliant
+                on a client for work? Slate helps
+                you identify.
+              </h5>
+            </div>
+            <button className='primary-btn'>
+              Sign up
+            </button>
             <img src={macbookpro} alt="MacbookPro" />
           </div>
           <div className='main__card'>
-            <h1>Design with real data</h1>
-            <h5>
-              Ever wondered if you're too reliant
-              on a client for work? Slate helps
-              you identify.
-            </h5>
+            <div>
+              <h1>Design with real data</h1>
+              <h5>
+                Ever wondered if you're too reliant
+                on a client for work? Slate helps
+                you identify.
+              </h5>
+            </div>
             <button className='primary-btn'>Sign up</button>
             <img src={boards} alt="BoardsNotification" />
           </div>
