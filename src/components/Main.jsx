@@ -138,7 +138,7 @@ const Main = () => {
             <img src={partner5} alt="Partner5" />
             <img src={partner6} alt="Partner6" />
           </div>
-        <button className='secondary-btn'>See more</button>
+        <button className='secondary-btn'>All Partners</button>
       </section>
     </main>
   )

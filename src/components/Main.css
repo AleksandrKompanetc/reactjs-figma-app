@@ -142,3 +142,13 @@
   align-items: center;
   color: #fff;
 }
+
+.partners__images {
+  margin-left: 74px;
+}
+
+.partners__images img {
+  margin-top: 54px;
+  margin-right: 74px;
+  margin-bottom: 54px;
+}
