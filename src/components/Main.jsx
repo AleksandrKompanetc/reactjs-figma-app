@@ -13,6 +13,12 @@ import gallery4 from "../assets/site/images/gallery/4.png"
 import gallery5 from "../assets/site/images/gallery/5.png"
 import gallery6 from "../assets/site/images/gallery/6.png"
 import gallery7 from "../assets/site/images/gallery/7.png"
+import partner1 from "../assets/site/images/logos/partners/airbnb.svg"
+import partner2 from "../assets/site/images/logos/partners/android-icon.svg"
+import partner3 from "../assets/site/images/logos/partners/apiary.svg"
+import partner4 from "../assets/site/images/logos/partners/apple-app-store.svg"
+import partner5 from "../assets/site/images/logos/partners/basecamp.svg"
+import partner6 from "../assets/site/images/logos/partners/ibm.svg"
 
 const Main = () => {
   return (
@@ -124,6 +130,15 @@ const Main = () => {
           We focus on ergonomics and meeting you where you work.
           It's only a keystroke away.
         </h5>
+          <div className='partners__images'>
+            <img src={partner1} alt="Partner1" />
+            <img src={partner2} alt="Partner2" />
+            <img src={partner3} alt="Partner3" />
+            <img src={partner4} alt="Partner4" />
+            <img src={partner5} alt="Partner5" />
+            <img src={partner6} alt="Partner6" />
+          </div>
+        <button className='secondary-btn'>See more</button>
       </section>
     </main>
   )
