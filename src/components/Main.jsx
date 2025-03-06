@@ -62,7 +62,7 @@ const Main = () => {
           It's only a keystroke away.
         </h5>
         <div className='main__cards'>
-          <div className='main__card'>
+          <div className='main__card first__card'>
             <h1>Work</h1>
             <h5>
               Ever wondered if you're too reliant

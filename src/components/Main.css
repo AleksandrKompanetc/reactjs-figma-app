@@ -92,7 +92,6 @@
 .main__card h5 {
   width: 270px;
   margin: 0;
-  margin-top: 30px;
   font-family: sans-serif;
   font-weight: 400;
   text-align: center;
@@ -100,5 +99,11 @@
 }
 
 .main__card button {
-  margin-top: 65px;
+}
+
+.main__card img {
+}
+
+.first__card {
+  margin-right: 33px;
 }
