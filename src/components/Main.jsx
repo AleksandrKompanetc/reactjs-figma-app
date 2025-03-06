@@ -6,6 +6,10 @@ import feature2 from '../assets/site/images/logos/features/2.svg'
 import feature3 from '../assets/site/images/logos/features/3.svg'
 import macbookpro from '../assets/site/images/siteImages/MacbookPro.png'
 import boards from '../assets/site/images/siteImages/BoardsNotifications.png'
+import gallery1 from "../assets/site/images/gallery/1.png"
+import gallery2 from "../assets/site/images/gallery/2.png"
+import gallery3 from "../assets/site/images/gallery/3.png"
+import gallery4 from "../assets/site/images/gallery/4.png"
 
 const Main = () => {
   return (
@@ -96,6 +100,15 @@ const Main = () => {
           We focus on ergonomics and meeting you where you work.
           It's only a keystroke away.
         </h5>
+        <div>
+          <div>
+            <img src={gallery1} alt="Gallery1" />
+            <img src={gallery2} alt="Gallery2" />
+            <img src={gallery3} alt="Gallery3" />
+            <img src={gallery4} alt="Gallery4" />
+          </div>
+        </div>
+        <button className='secondary-btn'>See more</button>
       </section>
     </main>
   )
