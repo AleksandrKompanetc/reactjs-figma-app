@@ -130,15 +130,24 @@ const Main = () => {
           We focus on ergonomics and meeting you where you work.
           It's only a keystroke away.
         </h5>
-          <div className='partners__images'>
-            <img src={partner1} alt="Partner1" />
-            <img src={partner2} alt="Partner2" />
-            <img src={partner3} alt="Partner3" />
-            <img src={partner4} alt="Partner4" />
-            <img src={partner5} alt="Partner5" />
-            <img src={partner6} alt="Partner6" />
-          </div>
+        <div className='partners__images'>
+          <img src={partner1} alt="Partner1" />
+          <img src={partner2} alt="Partner2" />
+          <img src={partner3} alt="Partner3" />
+          <img src={partner4} alt="Partner4" />
+          <img src={partner5} alt="Partner5" />
+          <img src={partner6} alt="Partner6" />
+        </div>
         <button className='secondary-btn'>All Partners</button>
+      </section>
+      <section className='testimonials'>
+        <h1 className='main__title'>Testimonials</h1>
+        <div className='main__testimonials'>
+          <div className='test1'></div>
+          <div className='test2'></div>
+          <div className='test3'></div>
+          <div className='test4'></div>
+        </div>
       </section>
     </main>
   )
