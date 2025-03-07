@@ -1,0 +1,31 @@
+.test {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: gray;
+}
+
+.test1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.test2 {
+  width: 100px;
+  height: 80px;
+  background: green;
+}
+
+.test3 {
+  width: 100px;
+  height: 50px;
+  background: blue; 
+}
+
+.test4 {
+  width: 100px;
+  height: 40px;
+  background: white;
+}
