@@ -173,6 +173,7 @@
 }
 
 .testimonial {
+  width: 430px;
   padding: 40px;
   border: 1px solid #fff;
   border-radius: 10px;
@@ -194,4 +195,9 @@
 
 .testimonial__job {
   margin-top: 6px;
+}
+
+.testimonial__content {
+  font-family: sans-serif;
+  font-weight: 500;
 }

@@ -156,7 +156,10 @@ const Main = () => {
               </div>
             </div>
             <div className='testimonial__content'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Quaerat velit, in expedita optio dolorum doloribus quis 
+              cum eaque nam nulla suscipit ipsum quos adipisci! 
+              Non repudiandae expedita vero ducimus officiis!
             </div>
           </div>
           <div className='test2'></div>
