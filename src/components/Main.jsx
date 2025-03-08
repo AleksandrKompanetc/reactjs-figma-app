@@ -19,6 +19,10 @@ import partner3 from "../assets/site/images/logos/partners/apiary.svg"
 import partner4 from "../assets/site/images/logos/partners/apple-app-store.svg"
 import partner5 from "../assets/site/images/logos/partners/basecamp.svg"
 import partner6 from "../assets/site/images/logos/partners/ibm.svg"
+import user1 from "../assets/site/images/users/1.png"
+import user2 from "../assets/site/images/users/2.png"
+import user3 from "../assets/site/images/users/3.png"
+import user4 from "../assets/site/images/users/4.png"
 
 const Main = () => {
   return (
@@ -140,12 +144,12 @@ const Main = () => {
         </div>
         <button className='secondary-btn'>All Partners</button>
       </section>
-      <section className='testimonials'>
+      <section className='main__testimonials'>
         <h1 className='main__title'>Testimonials</h1>
-        <div className='main__testimonials'>
+        <div className='testimonials'>
           <div className='testimonial'>
             <div className='testimonial__title'>
-              <img src="" alt="" />
+              <img src={user1} alt="user avatar" />
               <div></div>
               <div></div>
             </div>
