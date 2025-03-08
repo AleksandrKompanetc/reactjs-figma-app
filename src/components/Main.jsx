@@ -158,13 +158,53 @@ const Main = () => {
             <div className='testimonial__content'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
               Quaerat velit, in expedita optio dolorum doloribus quis 
-              cum eaque nam nulla suscipit ipsum quos adipisci! 
-              Non repudiandae expedita vero ducimus officiis!
+              cum eaque nam nulla suscipit.
             </div>
           </div>
-          <div className='test2'></div>
-          <div className='test3'></div>
-          <div className='test4'></div>
+          <div className='testimonial'>
+            <div className='testimonial__title'>
+              <img src={user1} alt="user avatar" />
+              <div>
+                <div className='testimonial__name'>Claire Bell</div>
+                <div className='testimonial__job'>Designer</div>
+              </div>
+            </div>
+            <div className='testimonial__content'>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Quaerat velit, in expedita optio dolorum doloribus quis 
+              cum eaque nam nulla suscipit ipsum quos adipisci!
+            </div>
+          </div>
+          <div className='testimonial'>
+            <div className='testimonial__title'>
+              <img src={user1} alt="user avatar" />
+              <div>
+                <div className='testimonial__name'>Claire Bell</div>
+                <div className='testimonial__job'>Designer</div>
+              </div>
+            </div>
+            <div className='testimonial__content'>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Quaerat velit, in expedita optio dolorum doloribus quis 
+              cum eaque nam nulla suscipit ipsum quos adipisci! 
+              Non repudiandae.
+            </div>
+          </div>
+          <div className='testimonial'>
+            <div className='testimonial__title'>
+              <img src={user1} alt="user avatar" />
+              <div>
+                <div className='testimonial__name'>Claire Bell</div>
+                <div className='testimonial__job'>Designer</div>
+              </div>
+            </div>
+            <div className='testimonial__content'>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Quaerat velit, in expedita optio dolorum doloribus quis 
+              cum eaque nam nulla suscipit ipsum quos adipisci! 
+              Non repudiandae expedita.
+            </div>
+          </div>
         </div>
       </section>
     </main>
