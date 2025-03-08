@@ -163,9 +163,9 @@ const Main = () => {
           </div>
           <div className='testimonial'>
             <div className='testimonial__title'>
-              <img src={user1} alt="user avatar" />
+              <img src={user2} alt="user avatar" />
               <div>
-                <div className='testimonial__name'>Claire Bell</div>
+                <div className='testimonial__name'>Francisco Lane</div>
                 <div className='testimonial__job'>Designer</div>
               </div>
             </div>
@@ -177,9 +177,9 @@ const Main = () => {
           </div>
           <div className='testimonial'>
             <div className='testimonial__title'>
-              <img src={user1} alt="user avatar" />
+              <img src={user3} alt="user avatar" />
               <div>
-                <div className='testimonial__name'>Claire Bell</div>
+                <div className='testimonial__name'>Ralph Fisher</div>
                 <div className='testimonial__job'>Designer</div>
               </div>
             </div>
@@ -192,9 +192,9 @@ const Main = () => {
           </div>
           <div className='testimonial'>
             <div className='testimonial__title'>
-              <img src={user1} alt="user avatar" />
+              <img src={user4} alt="user avatar" />
               <div>
-                <div className='testimonial__name'>Claire Bell</div>
+                <div className='testimonial__name'>Jorge Murphy</div>
                 <div className='testimonial__job'>Designer</div>
               </div>
             </div>
