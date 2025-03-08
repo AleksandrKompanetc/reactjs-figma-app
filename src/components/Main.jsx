@@ -150,8 +150,13 @@ const Main = () => {
           <div className='testimonial'>
             <div className='testimonial__title'>
               <img src={user1} alt="user avatar" />
-              <div></div>
-              <div></div>
+              <div>
+                <div className='testimonial__name'>Claire Bell</div>
+                <div className='testimonial__job'>Designer</div>
+              </div>
+            </div>
+            <div className='testimonial__content'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
           </div>
           <div className='test2'></div>
