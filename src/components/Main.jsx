@@ -143,7 +143,13 @@ const Main = () => {
       <section className='testimonials'>
         <h1 className='main__title'>Testimonials</h1>
         <div className='main__testimonials'>
-          <div className='test1'></div>
+          <div className='testimonial'>
+            <div className='testimonial__title'>
+              <img src="" alt="" />
+              <div></div>
+              <div></div>
+            </div>
+          </div>
           <div className='test2'></div>
           <div className='test3'></div>
           <div className='test4'></div>
