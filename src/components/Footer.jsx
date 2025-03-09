@@ -33,18 +33,24 @@ const Footer = () => {
         </div>
       </div>
       <div className='footer__info'>
-        <div>
+        <div className='info__location'>
           <img src={footer4} alt="Location" />
-          Location
+          Mrin Sity
         </div>
-        <div>
+        <div className='info__phone'>
           <img src={footer5} alt="Phone" />
-          Phone
+          (067) 66 55 789
         </div>
-        <div>
-          <img src={footer1} alt="Footer1" />
-          <img src={footer2} alt="Footer2" />
-          <img src={footer3} alt="Footer3" />
+        <div className='info__logos'>
+          <a href="#">
+            <img src={footer1} alt="Footer1" />
+          </a>
+          <a href="#">
+            <img src={footer2} alt="Footer2" />
+          </a>
+          <a href="#">
+            <img src={footer3} alt="Footer3" />
+          </a>
         </div>
       </div>
     </div>

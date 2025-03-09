@@ -1,5 +1,6 @@
 .footer {
   display: flex;
+  justify-content: space-around;
   margin-top: 150px;
   padding: 107px 0;
 }
@@ -33,4 +34,33 @@
   font-family: sans-serif;
   font-weight: 500;
   color: #fff;
+}
+
+.info__location {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.info__location img {
+  margin-right: 17px;
+}
+
+.info__phone {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.info__phone img {
+  margin-right: 17px;
+}
+
+.info__logos a {
+  margin-right: 24px;
+  text-decoration: none;
 }
