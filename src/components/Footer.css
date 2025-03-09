@@ -60,6 +60,10 @@
   margin-right: 17px;
 }
 
+.info__logos {
+  margin-top: 40px;
+}
+
 .info__logos a {
   margin-right: 24px;
   text-decoration: none;
