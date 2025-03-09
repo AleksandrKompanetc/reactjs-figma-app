@@ -158,7 +158,9 @@ const Main = () => {
             <div className='testimonial__content'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
               Quaerat velit, in expedita optio dolorum doloribus quis 
-              cum eaque nam nulla suscipit.
+              cum eaque nam nulla suscipit. Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Voluptatem aspernatur dolorum 
+              consequuntur possimus.
             </div>
           </div>
           <div className='testimonial'>
@@ -172,7 +174,8 @@ const Main = () => {
             <div className='testimonial__content'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
               Quaerat velit, in expedita optio dolorum doloribus quis 
-              cum eaque nam nulla suscipit ipsum quos adipisci!
+              cum eaque nam nulla suscipit ipsum quos adipisci! Lorem 
+              ipsum dolor sit amet, consectetur adipisicing elit.
             </div>
           </div>
           <div className='testimonial'>
@@ -186,8 +189,7 @@ const Main = () => {
             <div className='testimonial__content'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
               Quaerat velit, in expedita optio dolorum doloribus quis 
-              cum eaque nam nulla suscipit ipsum quos adipisci! 
-              Non repudiandae.
+              cum eaque nam nulla suscipit ipsum quos adipisci!
             </div>
           </div>
           <div className='testimonial'>
@@ -202,7 +204,7 @@ const Main = () => {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
               Quaerat velit, in expedita optio dolorum doloribus quis 
               cum eaque nam nulla suscipit ipsum quos adipisci! 
-              Non repudiandae expedita.
+              Non repudiandae expedita. Non repudiandae soluta.
             </div>
           </div>
         </div>
