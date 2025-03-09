@@ -50,6 +50,7 @@
 
 .info__phone {
   display: flex;
+  margin-top: 10px;
   align-items: center;
   font-family: sans-serif;
   font-weight: 500;
